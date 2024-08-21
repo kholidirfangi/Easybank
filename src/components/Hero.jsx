@@ -2,21 +2,24 @@ import Button from './Button';
 
 const Hero = () => {
   return (
-    <section id="home" className="hero pt-12 pb-12 bg-very-light-gray text-center xl:flex xl:flex-row-reverse  xl:ps-40 xl:text-left xl:h-screen">
+    <section
+      id="home"
+      className="hero pt-12 pb-12 bg-very-light-gray text-center xl:flex xl:flex-row-reverse  xl:ps-40 xl:text-left xl:h-screen"
+    >
       <div className="relative xl:w-1/2 xl:ps-28">
         <img
           className="w-full  -mt-5 xl:hidden"
-          src="../src/assets/images/bg-intro-mobile.svg"
+          src="/assets/images/bg-intro-mobile.svg"
           alt=""
         />
         <img
           className="w-full hidden xl:block xl:scale-[1.7]"
-          src="../src/assets/images/bg-intro-desktop.svg"
+          src="/assets/images/bg-intro-desktop.svg"
           alt=""
         />
         <img
           className="absolute -top-28  xl:-top-16"
-          src="../src/assets/images/image-mockups.png"
+          src="/assets/images/image-mockups.png"
           alt=""
         />
       </div>

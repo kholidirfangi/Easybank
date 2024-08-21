@@ -1,6 +1,9 @@
 const Fitures = () => {
   return (
-    <section id="fitures" className="flex flex-col w-full bg-light-grayish-blue py-16 text-center p-5 xl:text-left xl:px-40 xl:py-28">
+    <section
+      id="fitures"
+      className="flex flex-col w-full bg-light-grayish-blue py-16 text-center p-5 xl:text-left xl:px-40 xl:py-28"
+    >
       <div className="mb-16">
         <h2 className="text-3xl w-2/3 mx-auto mb-10 xl:mx-0">
           Why choose Easybank?
@@ -12,22 +15,22 @@ const Fitures = () => {
       </div>
       <div className="flex flex-col gap-10 xl:flex-row">
         <Fiture
-          icon="../src/assets/images/icon-online.svg"
+          icon="/assets/images/icon-online.svg"
           fitureName="Online Banking"
           description="Our modern web and mobile Applications allow you to keep track of your finances wherever you are in the world."
         />
         <Fiture
-          icon="../src/assets/images/icon-budgeting.svg"
+          icon="/assets/images/icon-budgeting.svg"
           fitureName="Simple Budgeting"
           description="See exactly where your money goes each month. Receive notifications when you're close to your hitting limits."
         />
         <Fiture
-          icon="../src/assets/images/icon-onboarding.svg"
+          icon="/assets/images/icon-onboarding.svg"
           fitureName="Fast Onboarding"
           description="We don't do branches. Open your account in minutes and start taking control of your finance right away."
         />
         <Fiture
-          icon="../src/assets/images/icon-api.svg"
+          icon="/assets/images/icon-api.svg"
           fitureName="Open API"
           description="Manage your savings, invesments, pension, and much more from one account. Tracking your money has never been easier."
         />

@@ -42,35 +42,35 @@ const Footer = () => {
           <div>
             <img
               className="w-6 hover:fill-red-500 cursor-pointer"
-              src="../src/assets/images/icon-facebook.svg"
+              src="/assets/images/icon-facebook.svg"
               alt=""
             />
           </div>
           <div>
             <img
               className="w-6 cursor-pointer"
-              src="../src/assets/images/icon-youtube.svg"
+              src="/assets/images/icon-youtube.svg"
               alt=""
             />
           </div>
           <div>
             <img
               className="w-6 cursor-pointer"
-              src="../src/assets/images/icon-twitter.svg"
+              src="/assets/images/icon-twitter.svg"
               alt=""
             />
           </div>
           <div>
             <img
               className="w-6 cursor-pointer"
-              src="../src/assets/images/icon-pinterest.svg"
+              src="/assets/images/icon-pinterest.svg"
               alt=""
             />
           </div>
           <div>
             <img
               className="w-6 cursor-pointer"
-              src="../src/assets/images/icon-instagram.svg"
+              src="/assets/images/icon-instagram.svg"
               alt=""
             />
           </div>

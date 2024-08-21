@@ -16,11 +16,7 @@ const Navbar = () => {
   return (
     <header className="flex fixed top-0 z-50 bg-white w-full justify-between px-10 py-4 items-center xl:px-40">
       <div>
-        <img
-          src="../src/assets/images/logo.svg"
-          alt="logo"
-          className="scale-125"
-        />
+        <img src="/assets/images/logo.svg" alt="logo" className="scale-125" />
       </div>
 
       <nav
