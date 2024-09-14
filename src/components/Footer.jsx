@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-light-grayish-blue my-5 xl:flex xl:gap-20">
+      <div className="text-light-grayish-blue flex flex-col my-5 gap-4 xl:flex xl:gap-20">
         <ul className="flex flex-col gap-4">
           <li>
             <a
