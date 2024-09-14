@@ -98,11 +98,11 @@ const Navbar = () => {
       <div className="cursor-pointer xl:hidden" onClick={handleClick}>
         {isOpen ? (
           <div>
-            <img src="../src/assets/images/icon-close.svg" alt="" />
+            <img src="../assets/images/icon-close.svg" alt="" />
           </div>
         ) : (
           <div>
-            <img src="../src/assets/images/icon-hamburger.svg" alt="" />
+            <img src="../assets/images/icon-hamburger.svg" alt="" />
           </div>
         )}
       </div>
